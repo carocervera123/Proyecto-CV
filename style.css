@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.contenedor1{
+    position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
+}
+.container-imag {
+    display: flex; /* Crea un contenedor flexible */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    position: absolute;
+   top: 50px;
+   left: 15%;
+   background-color:  white;
+  }
+  
+  .image {
+    width: 300px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: 300px; /* Ajusta la altura de la imagen según sea necesario */
+    margin-right: 20px; /* Agrega un margen a la derecha de la imagen */
+  border-radius: 50%;
+  object-fit: cover; /* Para que la imagen se ajuste al contenedor sin distorsionarse */
+  }
+  
+  .title {
+    color: purple;
+    font-size: 50px;
+    font-weight: bold;
+  }
+.conteiner-padre{
+    display: flex;
+  flex-direction: row; /* Organiza los elementos en una fila */
+  gap: 20px; /* Espacio entre columnas */ 
+  position: relative; /* Necesario para posicionar elementos hijos de forma relativa */
+  z-index: 2;
+}
+.container{
+    flex: 1;
+    padding-top: 400px; /* Ajusta el valor según tu preferencia */
+    
+}
+#border{
+    border: 3px solid purple;
+    border-radius: 10px; /* Redondea todas las esquinas 10 píxeles */
+}
+.border2{
+    border-radius: 35px;
+}
+.section {
+    color: purple;
+    width: 80%;
+    /* Estilos adicionales para las secciones */
+  padding: 20px;
+  display: grid;
+  place-items: center;  
+}
+
+button{
+    background-color: transparent;
+  border: 2px solid purple; /* Ajusta el color del borde según sea necesario */
+  
+  color: purple; /* Ajusta el color del texto según sea necesario */
+  font-weight: bold;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nuevo{
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+}
+
+.justificacion{
+    text-align: justify;
+}
+
+#centrar{
+    text-align: justify;
+}
+
+.circle1{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Para crear un círculo perfecto */
+  background-color: #ccc; /* Color de fondo inicial */
+  display: inline-block;
+  margin: 0 5px; /* Espacio entre círculos */
+color
+}
+
+.analitica{
+    display: flex; /* Crea un contenedor flexible */
+    justify-content: center; /* Centra los elementos horizontalmente */
+   
+}
+.circle1{
+    display: flex;
+    align-self: center;
+}
+
+.circle2{
+    display: flex;
+    align-self: center;
+    width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Para crear un círculo perfecto */
+  background-color: #ccc; /* Color de fondo inicial */
+  display: inline-block;
+  margin: 0 5px; /* Espacio entre círculos */
+}
+
+.circle3{
+    display: flex;
+    align-self: center;
+    width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Para crear un círculo perfecto */
+  background-color: #ccc; /* Color de fondo inicial */
+  display: inline-block;
+  margin: 0 5px; /* Espacio entre círculos */
+}
+
+.circle4{
+    display: flex;
+    align-self: center;
+    width: 10px;
+    height: 10px;
+     border-radius: 50%; /* Para crear un círculo perfecto */
+    background-color: #ccc; /* Color de fondo inicial */
+    display: inline-block;
+     margin: 0 5px; /* Espacio entre círculos */
+}
+
+.wrapper{
+  
+}
