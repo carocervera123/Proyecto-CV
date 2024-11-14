@@ -35,11 +35,10 @@ body {
   gap: 20px; /* Espacio entre columnas */ 
   position: relative; /* Necesario para posicionar elementos hijos de forma relativa */
   z-index: 2;
+  padding-top: 400px; /* Ajusta el valor según tu preferencia */
 }
 .container{
     flex: 1;
-    padding-top: 400px; /* Ajusta el valor según tu preferencia */
-    
 }
 #border{
     border: 3px solid purple;
@@ -132,8 +131,4 @@ color
     background-color: #ccc; /* Color de fondo inicial */
     display: inline-block;
      margin: 0 5px; /* Espacio entre círculos */
-}
-
-.wrapper{
-  
 }
